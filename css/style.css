@@ -386,14 +386,6 @@ img {
   border-color: var(--accent-color);
 }
 
-/* .checkbox__input:checked:focus + .checkbox__span {
-  background-image: url(../img/icon.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: none;
-  border-color: var(--accent-color);
-} */
-
 .form__consent {
   display: flex;
   align-items: center;
