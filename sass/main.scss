@@ -1,11 +1,11 @@
 @import "./utils/variables";
 @import "./base/normalize";
+@import "./utils/shutdown-code";
+@import "./utils/general-styles";
 @import "./components/page-header";
 @import "./components/nav-header";
 @import "./components/logo-header";
 @import "./components/contact-header";
-@import "./utils/shutdown-code";
-@import "./utils/general-styles";
 @import "./components/hero";
 @import "./components/modal-hero";
 @import "./components/form-hero";
