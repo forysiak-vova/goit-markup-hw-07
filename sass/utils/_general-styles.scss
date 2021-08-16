@@ -1,0 +1,30 @@
+body {
+  color: $primary-tex-color;
+  background-color: $white-text-color;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  position: relative;
+  color: $title-tex-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: color $animation $cubic;
+}
+
+.link:hover,
+.link:focus {
+  color: $accent-color;
+}

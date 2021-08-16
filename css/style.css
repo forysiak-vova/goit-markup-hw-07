@@ -123,7 +123,6 @@ img {
 }
 .navi {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
 .nav__list {
@@ -140,14 +139,12 @@ img {
   margin-right: 50px;
 }
 .container {
-  /* background-color: aqua; */
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 .page__header {
-  /* background-color: green; */
   border-bottom: 1px solid #f5f4fa;
   padding-top: 24px;
   padding-bottom: 24px;
