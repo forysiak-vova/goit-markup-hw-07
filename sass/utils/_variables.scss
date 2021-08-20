@@ -1,8 +1,10 @@
-$primary-tex-color: #757575;
-$title-tex-color: #212121;
-$accent-color: #2196f3;
-$white-text-color: #ffffff;
-$background-color: #2f303a;
-$font-weight-title: bold;
-$cubic: cubic-bezier(0.4, 0, 0.2, 1);
-$animation: 250ms;
+:root {
+  --primary-tex-color: #757575;
+  --title-tex-color: #212121;
+  --accent-color: #2196f3;
+  --white-text-color: #ffffff;
+  --background-color: #2f303a;
+  --font-weight-title: bold;
+  --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+  --animation: 250ms;
+}

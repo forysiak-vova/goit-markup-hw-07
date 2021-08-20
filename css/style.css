@@ -400,7 +400,6 @@ img {
 }
 .features {
   padding-top: 94px;
-  /* background-color: green; */
 }
 .features__title {
   font-weight: var(--font-weight-title);
@@ -719,7 +718,6 @@ img {
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
-  /* background-color: green; */
 }
 .portfolio__button {
   border-radius: 4px;
