@@ -495,7 +495,7 @@ img {
 .our-team__item {
   box-shadow: 0px 4px 4px rgba(207, 137, 137, 0.25);
 }
-.our-team-name {
+.our-team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -507,7 +507,7 @@ img {
   line-height: 1.19;
   margin-bottom: 16px;
 }
-.our-worker {
+.our-team__worker {
   padding: 30px 30px;
   text-align: center;
   background-color: white;

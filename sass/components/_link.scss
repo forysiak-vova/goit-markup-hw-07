@@ -7,9 +7,9 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   transition: color var(--animation) var(--cubic);
-}
 
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }

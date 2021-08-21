@@ -1,3 +1,4 @@
+// логотип
 .nav__logo_span {
   font-family: Raleway, sans-serif;
   font-weight: var(--font-weight-title);
@@ -13,32 +14,8 @@
   color: #000000;
   text-decoration: none;
 }
-.nav__link-activ {
-  color: var(--accent-color);
-}
-.contact__link {
-  color: var(--primary-tex-color);
-  display: flex;
-}
-.nav__link-activ::after {
-  position: absolute;
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  border-radius: 10px;
-  background-color: var(--accent-color);
-  bottom: -32px;
-}
 
-.heder__contact {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-  align-self: center;
-}
+// основні компоненти хедера
 
 .navigation {
   display: flex;
@@ -48,32 +25,67 @@
   display: flex;
   align-items: center;
 }
-.nav__list {
-  display: flex;
-  margin-left: 93px;
-}
-.nav__item {
-  margin-right: 50px;
-}
-.nav__item:last-child {
-  margin-right: 0;
-}
-.contact__item:first-child {
-  margin-right: 50px;
-}
 .page__header {
   border-bottom: 1px solid #f5f4fa;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-.contact__icon {
-  align-items: center;
-  margin-right: 10px;
-  fill: var(--primary-tex-color);
-  transition: fill, var(--animation) var(--cubic);
+// навігація по сайту
+
+.nav {
+  display: flex;
+  margin-left: 93px;
+
+  &__link-activ {
+    color: var(--accent-color);
+  }
+
+  &__link-activ::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 10px;
+    background-color: var(--accent-color);
+    bottom: -32px;
+  }
+
+  &__item {
+    margin-right: 50px;
+  }
+  &__item:last-child {
+    margin-right: 0;
+  }
 }
-.contact__link:hover .contact__icon,
-.contact__link:focus .contact__icon {
-  fill: var(--accent-color);
+
+// контакт хедер
+
+.contact {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  align-self: center;
+
+  &__item:first-child {
+    margin-right: 50px;
+  }
+
+  &__icon {
+    align-items: center;
+    margin-right: 10px;
+    fill: var(--primary-tex-color);
+    transition: fill, var(--animation) var(--cubic);
+  }
+  &__link:hover &__icon,
+  &__link:focus &__icon {
+    fill: var(--accent-color);
+  }
+  &__link {
+    color: var(--primary-tex-color);
+    display: flex;
+  }
 }
