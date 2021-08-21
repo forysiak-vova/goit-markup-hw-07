@@ -45,9 +45,7 @@
 
   &__comment {
     margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include centeredflex();
   }
   &__title {
     font-weight: bold;

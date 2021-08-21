@@ -342,7 +342,7 @@ img {
 .form__title {
   font-weight: bold;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -656,7 +656,7 @@ img {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-text-color);
@@ -777,7 +777,6 @@ img {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
   letter-spacing: 0.03em;
   color: var(--primary-tex-color);
 }

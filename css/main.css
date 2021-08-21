@@ -8,6 +8,8 @@
   --font-weight-title: bold;
   --cubic: cubic-bezier(0.4, 0, 0.2, 1);
   --animation: 250ms;
+  --secondary-font-size: 16px;
+  --secondary-letter-spacing: 0.06em;
 }
 
 .visually-hidden {
@@ -78,9 +80,9 @@ body {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: var(--font-weight-title);
-  font-size: 16px;
+  font-size: var(--secondary-font-size);
   line-height: 1.87;
-  letter-spacing: 0.06em;
+  letter-spacing: var(--secondary-letter-spacing);
   cursor: pointer;
   transition: background-color var(--animation) var(--cubic);
 }
@@ -116,7 +118,7 @@ body {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--secondary-font-size);
   line-height: 1.62;
   letter-spacing: 0.03em;
   transition: color var(--animation) var(--cubic), background-color var(--animation) var(--cubic), box-shadow var(--animation) var(--cubic);
@@ -130,9 +132,9 @@ body {
 .footer__button {
   padding: 10px 28px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: var(--secondary-font-size);
   line-height: 1.87;
-  letter-spacing: 0.06em;
+  letter-spacing: var(--secondary-letter-spacing);
   color: var(--white-text-color);
   background-color: #2196f3;
   border-radius: 6px;
@@ -329,9 +331,9 @@ body {
   align-items: center;
   justify-self: center;
   font-weight: bold;
-  font-size: 16px;
+  font-size: var(--secondary-font-size);
   line-height: 1.87;
-  letter-spacing: 0.06em;
+  letter-spacing: var(--secondary-letter-spacing);
   color: var(--white-text-color);
   background-color: #188ce8;
   padding: 10px 55px;
@@ -363,7 +365,6 @@ body {
   height: 44px;
   border: 1px solid transparent;
   border-radius: 50%;
-  align-items: center;
   transition: background-color var(--animation) var(--cubic);
 }
 .social__icon {
@@ -606,12 +607,12 @@ body {
 }
 .our-team__name {
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--secondary-font-size);
   line-height: 1.19;
   margin-bottom: 10px;
 }
 .our-team__about {
-  font-size: 16px;
+  font-size: var(--secondary-font-size);
   line-height: 1.19;
   margin-bottom: 16px;
 }
@@ -639,8 +640,8 @@ body {
 }
 .logo-company__link {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 106px;
   height: 60px;
   border-radius: 4px;
@@ -672,9 +673,9 @@ body {
 }
 .gallery__title {
   font-weight: var(--font-weight-title);
-  font-size: 18px;
+  font-size: var(--secondary-font-size);
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: var(--secondary-letter-spacing);
   margin-bottom: 4px;
   font-family: Roboto;
   font-style: normal;
@@ -693,12 +694,11 @@ body {
   transform: translateY(0);
 }
 .gallery__about {
-  font-size: 16px;
+  font-size: var(--secondary-font-size);
   line-height: 1.87;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
   letter-spacing: 0.03em;
   color: var(--primary-tex-color);
 }

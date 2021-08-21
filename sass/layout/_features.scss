@@ -10,9 +10,7 @@
 
   &__list {
     margin: 0;
-    display: grid;
-    grid-template-columns: repeat(4, 270px);
-    gap: 30px;
+    @include placinggrid(4, 270px);
   }
 
   &__about {
@@ -28,8 +26,6 @@
     background-color: #f5f4fa;
     /* padding-top: 25px; */
     border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include centeredflex();
   }
 }

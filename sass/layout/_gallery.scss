@@ -1,13 +1,13 @@
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 370px);
-  gap: 30px;
+  @include placinggrid(3, 370px);
 
   &__title {
     font-weight: var(--font-weight-title);
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+    @include type(
+      var(--secondary-font-size),
+      2,
+      var(--secondary-letter-spacing)
+    );
     margin-bottom: 4px;
 
     font-family: Roboto;
@@ -30,12 +30,11 @@
   }
 
   &__about {
-    font-size: 16px;
+    font-size: var(--secondary-font-size);
     line-height: 1.87;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
     letter-spacing: 0.03em;
     color: var(--primary-tex-color);
   }

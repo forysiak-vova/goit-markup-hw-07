@@ -13,9 +13,7 @@
 
   &__list {
     margin: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 370px);
-    gap: 30px;
+    @include placinggrid(3, 370px);
   }
 
   &__item {
@@ -32,9 +30,7 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include centeredflex();
     letter-spacing: 0.03em;
     text-transform: uppercase;
   }
